@@ -8,6 +8,9 @@
     }
   },
   "npmClient": "yarn",
+  "npmClientArgs": [
+    "--no-lockfile"
+  ],
   "packages": [
     "packages/*"
   ]
