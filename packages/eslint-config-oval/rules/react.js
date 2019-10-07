@@ -1,8 +1,3 @@
-const baseStyleRules = require('./style').rules;
-
-const { assign } = Object;
-const dangleRules = baseStyleRules['no-underscore-dangle'];
-
 module.exports = {
   plugins: [
     'react',

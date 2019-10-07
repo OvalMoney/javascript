@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
+
 const { CLIEngine } = require('eslint');
 const eslintrc = require('..');
 const reactRules = require('../rules/react');
@@ -8,7 +10,7 @@ const cli = new CLIEngine({
   baseConfig: eslintrc,
 
   rules: {
-    // It is okay to import devDependencies in tests.
+    // devDependencies in tests.
     'import/no-extraneous-dependencies': [2, { devDependencies: true }],
     // this doesn't matter for tests
     'lines-between-class-members': 0,
@@ -65,7 +67,7 @@ describe('validate react prop order', () => {
   render() { return <div />; }`));
 
     expect(result.errorCount).toBeTruthy();
-    expect(result.messages.map((msg) => msg.ruleId)).toStrictEqual(['react/sort-comp']);
+    expect(result.messages.map(msg => msg.ruleId)).toStrictEqual(['react/sort-comp']);
   });
 
   test('order: when random method after lifecycle methods', () => {
@@ -79,6 +81,6 @@ describe('validate react prop order', () => {
   render() { return <div />; }`));
 
     expect(result.errorCount).toBeTruthy();
-    expect(result.messages.map((msg) => msg.ruleId)).toStrictEqual(['react/sort-comp']);
+    expect(result.messages.map(msg => msg.ruleId)).toStrictEqual(['react/sort-comp']);
   });
 });

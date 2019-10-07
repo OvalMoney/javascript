@@ -1,12 +1,12 @@
 module.exports = {
   extends: [
     './rules/best-practices',
+    './rules/style',
     './rules/node',
     './rules/errors',
     './rules/es6',
     './rules/typescript',
     './rules/imports',
-    './rules/style',
     './rules/variables',
   ].map(require.resolve),
   parserOptions: {
