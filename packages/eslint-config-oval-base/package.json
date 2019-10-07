@@ -3,7 +3,23 @@
   "version": "0.0.0",
   "description": "Oval's Eslint JS sharable base config",
   "main": "index.js",
-  "repository": "https://github.com/OvalMoney/javascript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OvalMoney/javascript"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "oval",
+    "ovalmoney",
+    "javascript",
+    "styleguide",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018"
+  ],
   "author": "OvalMoney",
   "license": "MIT",
   "scripts": {
