@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-oval-base",
+  "version": "0.0.0",
+  "description": "Oval's Eslint JS sharable base config",
+  "main": "index.js",
+  "repository": "https://github.com/OvalMoney/javascript",
+  "author": "OvalMoney",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "prelint": "eclint check * rules/* test/*",
+    "lint": "eslint --report-unused-disable-directives ."
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "eslint": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "typescript": "^3.3.4000"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.9",
+    "object.assign": "^4.1.0",
+    "object.entries": "^1.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "eclint": "^2.8.1",
+    "eslint": "^6.5.1",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0",
+    "typescript": "^3.3.4000"
+  }
+}
