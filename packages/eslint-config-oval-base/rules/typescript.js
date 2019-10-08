@@ -48,7 +48,8 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-use-before-define': ['error', { classes: false }],
     '@typescript-eslint/no-var-requires': 'error',
-    '@typescript-eslint/consistent-type-definitions': 'error',
+    // TODO: discuss this one
+    '@typescript-eslint/consistent-type-definitions': 0,
     // TODO: discuss this one
     // '@typescript-eslint/prefer-interface': 'error',
     '@typescript-eslint/prefer-namespace-keyword': 'error',
