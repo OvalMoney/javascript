@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-oval",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.1-alpha.0",
   "description": "Oval's ESLint sharable config",
   "main": "index.js",
   "repository": {
