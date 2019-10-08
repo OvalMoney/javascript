@@ -13,5 +13,13 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  rules: {},
+  rules: {
+    strict: 'error',
+  },
+  env: {
+    jest: true,
+    browser: true,
+    amd: true,
+    node: true,
+  },
 };
