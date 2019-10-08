@@ -43,7 +43,3 @@ You can run tests with `yarn test`.
 
 You can make sure this module lints with itself using `yarn lint`.
 
-
-# TODO
-
-- add eslint-config-oval-base as dependency after release it
