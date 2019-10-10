@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-oval-base",
-  "version": "0.2.0-alpha.0",
+  "version": "1.0.0",
   "description": "Oval's Eslint JS sharable base config",
   "main": "index.js",
   "repository": {
