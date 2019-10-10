@@ -29,6 +29,7 @@
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "@typescript-eslint/parser": "^2.3.3",
     "eslint": "^6.1.0",
     "eslint-plugin-import": "^2.18.2",
     "typescript": "^3.3.4000"
@@ -43,6 +44,7 @@
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "@typescript-eslint/parser": "^2.3.3",
     "eclint": "^2.8.1",
     "eslint": "^6.5.1",
     "eslint-plugin-import": "^2.18.2",
