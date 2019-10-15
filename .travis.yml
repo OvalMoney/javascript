@@ -6,6 +6,10 @@ node_js:
   - 'node'
   - '10'
 
+before_script:
+  - yarn bootstrap
+
 cache:
+  yarn: true
   directories:
     - node_modules
