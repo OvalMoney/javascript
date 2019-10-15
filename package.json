@@ -2,6 +2,12 @@
   "name": "oval-javascript",
   "private": true,
   "license": "MIT",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "pretest": "lerna exec -- yarn lint",
+    "test": "lerna exec -- yarn test",
+    "release": "lerna publish"
+  },
   "devDependencies": {
     "lerna": "^3.16.4"
   }

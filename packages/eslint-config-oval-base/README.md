@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/OvalMoney/javascript.svg?branch=master)](https://travis-ci.org/OvalMoney/javascript) [![npm](https://img.shields.io/npm/v/eslint-config-oval-base.svg?style=flat)](https://www.npmjs.com/package/eslint-config-oval-base)
+
 # eslint-config-oval-base
 
 > Base config for Oval ESlint - no React
