@@ -10,6 +10,5 @@ before_script:
   - yarn bootstrap
 
 cache:
-  yarn: true
   directories:
     - node_modules
