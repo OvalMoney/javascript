@@ -4,7 +4,7 @@
 
 We export 3 ESLint configurations for your usage.
 
-Our default export contains all of our ESLint rules, including ECMAScript 6+ and React. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, `eslint-plugin-react-hooks`, `@typescript-eslint`, `typescript`, and `eslint-plugin-jsx-a11y`. If you don't need React, see `eslint-config-oval-base`.
+Our default export contains all of our ESLint rules, including ECMAScript 6+ and React. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, `eslint-plugin-react-hooks`, `@typescript-eslint/eslint-plugin`, `@typescript-eslint/parser`, `typescript`, and `eslint-plugin-jsx-a11y`. If you don't need React, see `eslint-config-oval-base`.
 
 ## Install
 
@@ -18,7 +18,10 @@ yarn add --dev eslint-config-oval
 
 Add to your `.eslintrc`
 ```
-"extends": "oval"
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": "oval"
+}
 ```
 
 ### eslint-config/oval/hooks
