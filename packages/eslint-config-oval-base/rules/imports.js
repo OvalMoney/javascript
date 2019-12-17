@@ -146,7 +146,7 @@ module.exports = {
       "tsx": "never",
       "json": "always",
       "pcss": "always"
-    }]
+    }],
 
     // ensure absolute imports are above relative imports and that unassigned imports are ignored
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
