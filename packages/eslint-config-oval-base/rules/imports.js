@@ -138,14 +138,14 @@ module.exports = {
 
     // Ensure consistent use of file extension within the import path
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
-    "import/extensions": ["error", {
-      "js": "never",
-      "mjs": "never",
-      "jsx": "never",
-      "ts": "never",
-      "tsx": "never",
-      "json": "always",
-      "pcss": "always"
+    'import/extensions': ['error', {
+      js: 'never',
+      mjs: 'never',
+      jsx: 'never',
+      ts: 'never',
+      tsx: 'never',
+      json: 'always',
+      pcss: 'always'
     }],
 
     // ensure absolute imports are above relative imports and that unassigned imports are ignored
