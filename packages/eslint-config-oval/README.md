@@ -10,6 +10,14 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+ and
 
 ## Install
 
+First install the dependencies:
+
+```
+yarn add --dev eslint eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript eslint-plugin-jsx-a11y
+```
+
+Then add our config:
+
 ```
 yarn add --dev eslint-config-oval
 ```
