@@ -89,6 +89,7 @@ module.exports = {
         '**/Gruntfile{,.js}', // grunt config
         '**/protractor.conf.js', // protractor config
         '**/protractor.conf.*.js', // protractor config
+        '**/cypress/**',
         '**/storybook/**',
         '**/testUtils.tsx',
         '**/configureStore.ts',
