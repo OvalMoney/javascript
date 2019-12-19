@@ -49,7 +49,7 @@ Create a new `tsconfig.eslint.json` files for overrides the `include` and `exclu
   ]
 }
 
-``` 
+```
 
 ## The `parserOptions.project` issue
 
