@@ -29,7 +29,7 @@ yarn add --dev eslint-config-oval
 Add to your `.eslintrc`
 ```json
 {
-  "extends": "oval"
+  "extends": "oval",
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": "tsconfig.eslint.json"
