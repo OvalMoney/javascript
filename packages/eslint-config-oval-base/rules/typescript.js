@@ -53,6 +53,8 @@ module.exports = {
     // TODO: discuss this one
     // '@typescript-eslint/prefer-interface': 'error',
     '@typescript-eslint/prefer-namespace-keyword': 'error',
+    '@typescript-eslint/prefer-optional-chain': 'error',
+    '@typescript-eslint/prefer-nullish-coalescing': 'error',
     '@typescript-eslint/type-annotation-spacing': 'error',
 
     // OFF RULES
