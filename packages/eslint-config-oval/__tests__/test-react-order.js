@@ -8,12 +8,14 @@ const reactA11yRules = require('../rules/react-a11y');
 const cli = new CLIEngine({
   useEslintrc: false,
   baseConfig: eslintrc,
-
   rules: {
     // devDependencies in tests.
     'import/no-extraneous-dependencies': [2, { devDependencies: true }],
     // this doesn't matter for tests
     'lines-between-class-members': 0,
+    // Avoid rules that need type info, for now
+    '@typescript-eslint/prefer-optional-chain': 0,
+    '@typescript-eslint/prefer-nullish-coalescing': 0,
   },
 });
 
