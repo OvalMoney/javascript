@@ -7,11 +7,16 @@ const reactA11yRules = require('../rules/react-a11y');
 
 const cli = new CLIEngine({
   useEslintrc: false,
-  baseConfig: eslintrc,
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    // Hack eslint resolving madness, this will run from the root
-    project: './packages/**/tsconfig.sample.json',
+  baseConfig: {
+    ...eslintrc,
+    parser: '@typescript-eslint/parser',
+    parserOptions: {
+      // Hack eslint resolving madness, this will run from the root
+      project: './packages/**/tsconfig.sample.json',
+      ecmaFeatures: {
+        jsx: true,
+      },
+    },
   },
   rules: {
     // devDependencies in tests.
