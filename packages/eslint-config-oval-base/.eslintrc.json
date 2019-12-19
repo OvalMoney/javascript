@@ -1,9 +1,0 @@
-{
-  "extends": "./index.js",
-  "rules": {
-    "comma-dangle": 0
-  },
-  "env": {
-    "jest": true
-  }
-}
