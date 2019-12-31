@@ -15,7 +15,6 @@ const cli = new CLIEngine({
     'lines-between-class-members': 0,
     // Avoid rules that need type info, for now
     '@typescript-eslint/prefer-optional-chain': 0,
-    '@typescript-eslint/prefer-nullish-coalescing': 0,
   },
 });
 
