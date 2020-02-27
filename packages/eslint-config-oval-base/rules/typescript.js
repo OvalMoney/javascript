@@ -38,7 +38,7 @@ module.exports = {
     '@typescript-eslint/interface-name-prefix': ['error', 'always'],
     '@typescript-eslint/member-delimiter-style': 'error',
     '@typescript-eslint/no-array-constructor': 'error',
-    '@typescript-eslint/no-empty-interface': 'error',
+    '@typescript-eslint/no-empty-interface': 0,
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-inferrable-types': 'error',
     '@typescript-eslint/no-misused-new': 'error',
@@ -55,7 +55,6 @@ module.exports = {
     '@typescript-eslint/prefer-namespace-keyword': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/type-annotation-spacing': 'error',
-    '@typescript-eslint/no-empty-interface': 0,
 
     // OFF RULES
     camelcase: 'off',
