@@ -93,6 +93,9 @@ module.exports = {
         '**/storybook/**',
         '**/testUtils.tsx',
         '**/configureStore.ts',
+        '**/next.config.js',
+        '**/postcss.config.js',
+        '**/gatsby-node.js',
       ],
       packageDir: ['./'],
       optionalDependencies: false,
@@ -146,7 +149,8 @@ module.exports = {
       ts: 'never',
       tsx: 'never',
       json: 'always',
-      pcss: 'always'
+      pcss: 'always',
+      css: 'always',
     }],
 
     // ensure absolute imports are above relative imports and that unassigned imports are ignored
