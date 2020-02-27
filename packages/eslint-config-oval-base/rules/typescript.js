@@ -55,6 +55,7 @@ module.exports = {
     '@typescript-eslint/prefer-namespace-keyword': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/type-annotation-spacing': 'error',
+    '@typescript-eslint/no-empty-interface': 0,
 
     // OFF RULES
     camelcase: 'off',
