@@ -6,7 +6,7 @@ module.exports = {
     '@typescript-eslint/array-type': 'error',
     '@typescript-eslint/ban-types': 'error',
     '@typescript-eslint/camelcase': 0,
-    '@typescript-eslint/class-name-casing': 'error',
+    '@typescript-eslint/naming-convention': 'error',
     // TODO: enabled this
     // '@typescript-eslint/explicit-function-return-type': 'warn',
     // TODO: enabled this
@@ -35,7 +35,6 @@ module.exports = {
       ignoredNodes: ['JSXElement', 'JSXElement > *', 'JSXAttribute', 'JSXIdentifier', 'JSXNamespacedName', 'JSXMemberExpression', 'JSXSpreadAttribute', 'JSXExpressionContainer', 'JSXOpeningElement', 'JSXClosingElement', 'JSXText', 'JSXEmptyExpression', 'JSXSpreadChild'],
       ignoreComments: false,
     }],
-    '@typescript-eslint/interface-name-prefix': ['error', 'always'],
     '@typescript-eslint/member-delimiter-style': 'error',
     '@typescript-eslint/no-array-constructor': 'error',
     '@typescript-eslint/no-empty-interface': 0,
