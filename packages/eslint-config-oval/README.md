@@ -28,13 +28,13 @@ yarn add --dev eslint-config-oval
 
 Add to your `.eslintrc`
 ```json
-{
- "extends": "oval",
- "parser": "@typescript-eslint/parser",
- "parserOptions": {
-   "project": "tsconfig.eslint.json"
- }
-}
+  {
+    "extends": "oval",
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "project": "tsconfig.eslint.json"
+    }
+  }
 ```
 
 Create a new `tsconfig.eslint.json` files for overrides the `include` and `exclude` of your main `tsconfig.json`, so that ESLint will be able to lint everything without complaining:
