@@ -96,6 +96,9 @@ module.exports = {
         '**/next.config.js',
         '**/postcss.config.js',
         '**/gatsby-node.js',
+        '**/*.stories.tsx',
+        '**/*.stories.jsx',
+        '**/*.stories.js'
       ],
       packageDir: ['./'],
       optionalDependencies: false,
@@ -151,6 +154,7 @@ module.exports = {
       json: 'always',
       pcss: 'always',
       css: 'always',
+      styled: 'always'
     }],
 
     // ensure absolute imports are above relative imports and that unassigned imports are ignored
