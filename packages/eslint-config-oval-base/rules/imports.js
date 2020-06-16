@@ -98,7 +98,8 @@ module.exports = {
         '**/gatsby-node.js',
         '**/*.stories.tsx',
         '**/*.stories.jsx',
-        '**/*.stories.js'
+        '**/*.stories.js',
+        '**/e2e/**'
       ],
       packageDir: ['./'],
       optionalDependencies: false,
